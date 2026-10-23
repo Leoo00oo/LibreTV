@@ -12,3 +12,13 @@ vitest-results.json
 .zcode/
 .codebuddy/
 generated-images/
+# Local secrets / backups (never commit — may contain PASSWORD)
+.env.bak*
+.env.*
+!.env.example
+
+# Machine-local launcher (paths + default password fallback)
+start.sh
+
+# Local source-list dumps
+libretv-sourcelist-*.json
